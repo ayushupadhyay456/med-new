@@ -9,27 +9,12 @@ import { faTruckMedical } from '@fortawesome/free-solid-svg-icons';
 import { faFontAwesome } from '@fortawesome/free-regular-svg-icons';
 import { faSuitcaseMedical } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+// import Navbar from './Navbar';
 const Dashboard = () => {
   let navigate=useNavigate();
   return (
-    <div>
-      <ul className='d-nav'>
-      <li>MED-3</li>
-  <div className='li-wall'>
-  <li className='active'><button className='btn btn-outline-primary'>Home</button></li>
-  <li><button className='btn btn-outline-primary'>Services</button></li>
-  
-  <li>
-  
-  <button onClick={()=>{navigate('/About')}} className='btn btn-outline-primary'>MedBox</button>
+    <>
     
-    
-    
-    </li>
-  <li><button onClick={()=>{navigate('/About')}} className='btn btn-outline-primary'>About</button></li>
-  <li><button className="custom-btn btn-3"><span>Wallet</span></button></li>
-  </div>
-   </ul>
     <div className="d-content">
     
         <div className="d-left">
@@ -75,7 +60,7 @@ const Dashboard = () => {
       </div>
       
     </div>
-    </div>
+    </>
   )
 }
 
