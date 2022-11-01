@@ -19,10 +19,10 @@ const Dashboard = () => {
     
         <div className="d-left">
         <div className='d-left-head'>
-          Hello
+          Decentralizing the Health Care.
         </div>
         <div className="d-left-head1">
-          Lead Generation.Online Business
+          We help patients to own and secure their health records.Our team helps to take Doctor's appointment in an easy way.
         </div>
         <div className="btn btn-primary btn-lg">
           Get Started
@@ -58,8 +58,22 @@ const Dashboard = () => {
         <p>Can be taken from doctors in just a click.</p>
       </div>
       </div>
+     
       
     </div>
+    <div className="d-footer">
+      <div className="d-footer-center">
+      <h2>Subscribe to Our Newsletter</h2>
+      <div className="d-footer-input">
+      <input type="email" placeholder='Enter Your Email'/>
+      <div className="d-footer-btn btn btn-primary btn-lg">
+          Submit
+        </div>
+      </div>
+      
+       </div>
+      
+     </div>
     </>
   )
 }

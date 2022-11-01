@@ -141,15 +141,16 @@ ul {
     padding-left: 10px;
 }
 .d-left-head
-{
-    font-size: 30px;
+{   
+    font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 
 }
 .d-left-head1
 {
-    font-size: 30px;
+  margin-left: 80px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -196,7 +197,7 @@ ul {
     background-color: rgb(30, 26, 26);
 }
 .d-box:hover{
-    transition:0.5s;
+    transition: 0.5s ease-in-out;
     transform: scale(1.1);
         box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
         z-index: 3;
@@ -229,4 +230,40 @@ p{
 p{
     margin-left: 25px;
 } 
+.d-footer
+{
+  height: 110vh;
+}
+.d-footer-center
+{
+  color:white;
+  flex-direction: column;
+  height:60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type='email']
+{
+  display:flex;
+  align-items:center;
+  width:20em;
+  border:none;
+  border-radius: 5px;
+  height: 50px;
+}
+.d-footer-input
+{
+  display: flex;
+  height:15vh;
 
+}
+.d-footer-btn
+{
+  margin-left: 10px;
+  align-items: center;
+  width:180px;
+  height: 50px;
+  padding:7px;
+  border:1px solid black;
+}
