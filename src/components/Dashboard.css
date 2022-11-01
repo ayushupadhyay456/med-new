@@ -267,3 +267,14 @@ input[type='email']
   padding:7px;
   border:1px solid black;
 }
+.d-footer-under-ul
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.d-footer-under-li
+{
+  font-size: 20px;
+  color: white;
+}

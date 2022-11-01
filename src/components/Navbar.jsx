@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { ethers } from 'ethers';
 export default function Navbar() {
   return (
     <div>
@@ -30,7 +31,19 @@ export default function Navbar() {
 
         
       </ul>
-      <button className='btn btn-outline-light' type='Submit'>Connect Wallet</button>
+      <button className='btn btn-outline-light'
+      onClick={async ()=>
+      {
+        if (window.ethereum)
+        {
+           alert(await window.ethereum.enable());
+            
+        }
+      }}
+      
+      
+      
+      type='Submit'>Connect Wallet</button>
     </div>
   </div>
   
